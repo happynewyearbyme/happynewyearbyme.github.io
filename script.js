@@ -19,7 +19,10 @@ function countdown() {
     clearInterval(i);
     document.querySelector(
       ".countdown"
-    ).innerHTML = `<h1>Happy New Year</h1>`;
+    ).innerHTML = `<h1>Happy New Year to all of You <br> 
+: By Debu 
+<br>
+Rashmi you are foolish</h1>`;
   } else {
     let daysLeft = Math.floor(remainingTime / oneDay);
     let hrsLeft = Math.floor((remainingTime % oneDay) / oneHr);
